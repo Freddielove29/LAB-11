@@ -7,19 +7,21 @@
 
 ## การใช้งานแปรงระบายสี (Brush)
 แปรงระบายสี ช่วยให้เราสามารถระบายสีแบบต่างๆ ให้กับรูปร่างต่างๆ ได้ตามต้องการ ใน GDI+ มีแปรงระบายสีอยู่ 5 รูปแบบด้วยกัน ประกอบด้วย ```SolidBrush```, ```HatchBrush```, ```TextureBrush```, ```LinearGradientBrush``` และ ```PathGradientBrush``` ซึ่งทั้งหมดจะอยู่ในคลาส ```Brush``` 
-
+![]()[](https://github.com/Freddielove29/LAB-11/blob/master/imgs/lab11.1.PNG?raw=true)
+![](https://github.com/Freddielove29/LAB-11/blob/master/imgs/lab11.2.PNG?raw=true)
 ### การระบายสีด้วย SolidBrush
 * แก้ไข code ต่อไปนี้ในฟังก์ชัน ```private void Form1_Paint(object sender, PaintEventArgs e)```
 <p align = "center">
 <img src= "https://github.com/Desktop-Programming-Lab-2559/LAB-11/blob/master/imgs/lab11-1.png">
 </p>
 
+![](https://github.com/Freddielove29/LAB-11/blob/master/imgs/lab11.2.PNG?raw=true)
 ### การระบายสีด้วย HatchBrush
 * แก้ไข code ต่อไปนี้ในฟังก์ชัน ```private void Form1_Paint(object sender, PaintEventArgs e)```
  <p align = "center">
 <img src= "https://github.com/Desktop-Programming-Lab-2559/LAB-11/blob/master/imgs/lab11-2.png">
 </p>
-
+![](https://github.com/Freddielove29/LAB-11/blob/master/imgs/lab11.3.PNG?raw=true)
 ### การระบายสีด้วย TextureBrush
 * แก้ไข code ต่อไปนี้ในฟังก์ชัน ```private void Form1_Paint(object sender, PaintEventArgs e)```
   <p align = "center">
@@ -57,10 +59,13 @@
 <p align = "center">
 <img src= "https://github.com/Desktop-Programming-Lab-2559/LAB-11/blob/master/imgs/lab11-8.png">
 </p>
-
+![](https://github.com/Freddielove29/LAB-11/blob/master/imgs/lab11.4.PNG?raw=true)
+![](https://github.com/Freddielove29/LAB-11/blob/master/imgs/lab11.5.PNG?raw=true)
 
 ###แบบทดสอบ 
 ให้เลื่อนจุดศูนย์กลางและปรับเปลี่ยนสี ให้ได้รูปดังนี้
 <p align = "center">
 <img src= "https://github.com/Desktop-Programming-Lab-2559/LAB-11/blob/master/imgs/lab11-9.png">
 </p>
+
+![](https://github.com/Freddielove29/LAB-11/blob/master/imgs/lab11.6.PNG?raw=true)
